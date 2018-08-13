@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/stevegt/lab/xl320/sprit/sprit.sch</source>
+    <date>Mon Aug 28 22:02:49 2017</date>
+    <tool>Eeschema no-vcs-found-ee43728~59~ubuntu16.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>sprit.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U2">
+      <value>SN74LV1T126</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23-5</footprint>
+      <libsource lib="sprit" part="SN74LV1T126"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>598FE470</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>CONN_02X05</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_2x05_Pitch2.54mm</footprint>
+      <libsource lib="conn" part="CONN_02X05"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>598FE588</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>499</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>598FE81F</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>CONN_01X03</value>
+      <footprint>Connectors_Molex:Molex_MicroLatch-53254-0370_03x2.00mm_Angled</footprint>
+      <libsource lib="conn" part="CONN_01X03"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>598FE8EB</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>499</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>598FE99D</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>BARREL_JACK</value>
+      <footprint>Connectors:BARREL_JACK</footprint>
+      <libsource lib="sprit-cache" part="BARREL_JACK"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>598FECBD</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>2N7002</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
+      <libsource lib="sprit-rescue" part="2N7002-RESCUE-sprit"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>598FF05D</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>2N7002</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
+      <libsource lib="sprit-rescue" part="2N7002-RESCUE-sprit"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>598FF097</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>499</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>598FF1C0</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>47uF</value>
+      <footprint>Capacitors_SMD:C_1206</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>599007A0</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>47uF</value>
+      <footprint>Capacitors_SMD:C_1206</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59900A6F</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>MC7808CDTRKG</value>
+      <footprint>TO_SOT_Packages_SMD:TO-252-2</footprint>
+      <libsource lib="sprit-cache" part="LM7808CT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>599015DD</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>47uF</value>
+      <footprint>Capacitors_SMD:C_1206</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59901899</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>47uF</value>
+      <footprint>Capacitors_SMD:C_1206</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59901946</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="sprit-rescue" part="2N7002-RESCUE-sprit">
+      <footprints>
+        <fp>SOT-23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">2N7002-RESCUE-sprit</field>
+        <field name="Footprint">TO_SOT_Packages_SMD:SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="passive"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="sprit-cache" part="BARREL_JACK">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">BARREL_JACK</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X03">
+      <description>Connector, single row, 01x03, pin header</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X*</fp>
+        <fp>Pin_Header_Angled_1X*</fp>
+        <fp>Socket_Strip_Straight_1X*</fp>
+        <fp>Socket_Strip_Angled_1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CONN_01X03</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_02X05">
+      <description>Connector, double row, 02x05, pin header</description>
+      <footprints>
+        <fp>Pin_Header_Straight_2X*</fp>
+        <fp>Pin_Header_Angled_2X*</fp>
+        <fp>Socket_Strip_Straight_2X*</fp>
+        <fp>Socket_Strip_Angled_2X*</fp>
+        <fp>IDC_Header_Straight_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CONN_02X05</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+        <pin num="7" name="P7" type="passive"/>
+        <pin num="8" name="P8" type="passive"/>
+        <pin num="9" name="P9" type="passive"/>
+        <pin num="10" name="P10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="sprit-cache" part="LM7805CT">
+      <aliases>
+        <alias>LM7806CT</alias>
+        <alias>LM7808CT</alias>
+        <alias>LM7809CT</alias>
+        <alias>LM7810CT</alias>
+        <alias>LM7812CT</alias>
+        <alias>LM7815CT</alias>
+        <alias>LM7818CT</alias>
+        <alias>LM7824CT</alias>
+        <alias>LM7806ACT</alias>
+        <alias>LM7808ACT</alias>
+        <alias>LM7809ACT</alias>
+        <alias>LM7810ACT</alias>
+        <alias>LM7812ACT</alias>
+        <alias>LM7815ACT</alias>
+        <alias>LM7818ACT</alias>
+        <alias>LM7824ACT</alias>
+      </aliases>
+      <footprints>
+        <fp>TO*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM7805CT</field>
+        <field name="Footprint">TO_SOT_Packages_THT:TO-220_Vertical</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="input"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="OUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="sprit" part="SN74LV1T126">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SN74LV1T126</field>
+      </fields>
+      <pins>
+        <pin num="1" name="OE" type="input"/>
+        <pin num="2" name="A" type="input"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="Y" type="3state"/>
+        <pin num="5" name="3.3v" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="conn">
+      <uri>/usr/share/kicad/library/conn.lib</uri>
+    </library>
+    <library logical="sprit-cache">
+      <uri>/home/stevegt/lab/xl320/sprit/sprit-cache.lib</uri>
+    </library>
+    <library logical="sprit">
+      <uri>/home/stevegt/lab/xl320/sprit/sprit.lib</uri>
+    </library>
+    <library logical="device">
+      <uri>/usr/share/kicad/library/device.lib</uri>
+    </library>
+    <library logical="sprit-rescue">
+      <uri>/home/stevegt/lab/xl320/sprit/sprit-rescue.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GND">
+      <node ref="C4" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="U1" pin="2"/>
+      <node ref="J3" pin="1"/>
+      <node ref="J2" pin="9"/>
+      <node ref="U2" pin="3"/>
+      <node ref="Q2" pin="2"/>
+      <node ref="Q1" pin="2"/>
+      <node ref="J1" pin="3"/>
+      <node ref="J1" pin="2"/>
+      <node ref="C3" pin="2"/>
+    </net>
+    <net code="2" name="+5V">
+      <node ref="R1" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="J2" pin="4"/>
+      <node ref="J2" pin="2"/>
+    </net>
+    <net code="3" name="Net-(C2-Pad1)">
+      <node ref="J3" pin="2"/>
+      <node ref="C2" pin="1"/>
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="4" name="Net-(J2-Pad8)">
+      <node ref="U2" pin="1"/>
+      <node ref="J2" pin="8"/>
+      <node ref="Q2" pin="1"/>
+    </net>
+    <net code="5" name="Net-(C1-Pad1)">
+      <node ref="J1" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="6" name="+3V3">
+      <node ref="C4" pin="1"/>
+      <node ref="R2" pin="1"/>
+      <node ref="R3" pin="1"/>
+      <node ref="U2" pin="5"/>
+      <node ref="J2" pin="1"/>
+    </net>
+    <net code="7" name="Net-(J2-Pad10)">
+      <node ref="J2" pin="10"/>
+      <node ref="R2" pin="2"/>
+      <node ref="U2" pin="4"/>
+    </net>
+    <net code="8" name="Net-(J2-Pad7)">
+      <node ref="J2" pin="7"/>
+    </net>
+    <net code="9" name="Net-(J2-Pad6)">
+      <node ref="J2" pin="6"/>
+    </net>
+    <net code="10" name="Net-(J2-Pad5)">
+      <node ref="J2" pin="5"/>
+    </net>
+    <net code="11" name="Net-(J2-Pad3)">
+      <node ref="J2" pin="3"/>
+    </net>
+    <net code="12" name="Net-(Q1-Pad1)">
+      <node ref="Q1" pin="1"/>
+      <node ref="Q2" pin="3"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="13" name="Net-(J3-Pad3)">
+      <node ref="Q1" pin="3"/>
+      <node ref="U2" pin="2"/>
+      <node ref="R1" pin="2"/>
+      <node ref="J3" pin="3"/>
+    </net>
+  </nets>
+</export>
