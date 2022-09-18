@@ -687,7 +687,6 @@
     )
   )
 
-
   (junction (at 68.58 88.9) (diameter 0) (color 0 0 0 0)
     (uuid 0a160a80-6afd-463b-a5b2-a9914739770e)
   )
@@ -919,7 +918,7 @@
     (effects (font (size 1.524 1.524)) (justify left bottom))
     (uuid 978af180-dad8-4827-ae00-7cb7aaa9a266)
   )
-  (text "5-18V" (at 148.59 43.18 0)
+  (text "10.5-18V" (at 148.59 43.18 0)
     (effects (font (size 1.524 1.524)) (justify left bottom))
     (uuid d755947c-ba18-422b-8a88-34e78cc35eab)
   )
