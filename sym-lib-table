@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "sprit-rescue")(type "Legacy")(uri "${KIPRJMOD}/sprit-rescue.lib")(options "")(descr ""))
+  (lib (name "sprit")(type "Legacy")(uri "${KIPRJMOD}/sprit.lib")(options "")(descr ""))
+)
